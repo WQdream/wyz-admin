@@ -36,7 +36,7 @@ export const useThemeConfig = defineStore('themeConfig', {
 			 * 菜单设置
 			 */
 			// 默认菜单导航背景颜色
-			menuBar: '#545c64',
+			menuBar: '#161B20',
 			// 默认菜单导航字体颜色
 			menuBarColor: '#eaeaea',
 			// 默认菜单高亮背景色
@@ -102,9 +102,9 @@ export const useThemeConfig = defineStore('themeConfig', {
 			// 是否开启色弱模式
 			isInvert: false,
 			// 是否开启水印
-			isWartermark: true,
+			isWartermark: false,
 			// 水印文案
-			wartermarkText: 'vue-next-admin',
+			wartermarkText: 'xiaoxin',
 
 			/**
 			 * 其它设置
